@@ -1,0 +1,94 @@
+syntax = "proto3";
+package expr;
+option go_package = "./expression";
+
+message AddrType {
+  string transport = 1;
+  string addr = 2;
+  string port = 3;
+}
+
+message ConnType {
+  AddrType source = 1;
+  AddrType destination = 2;
+}
+
+
+message UrlType {
+  string scheme = 1;
+  string domain = 2;
+  string host = 3;
+  string port = 4;
+  string path = 5;
+  string query = 6;
+  string fragment = 7;
+}
+
+//message NetworkInput {
+//  string data = 1;
+//  string type = 2;
+//}
+
+message NetworkRequestType {
+  bytes raw = 1;
+}
+
+message NetworkResponseType {
+  ConnType conn = 1;
+  bytes raw = 2;
+}
+
+message SshRequestType {
+  bytes raw = 1;
+}
+
+message SshResponseType {
+  ConnType conn = 1;
+  bytes raw = 2;
+  map<string,string> metadata = 3;
+}
+
+
+message HTTPRequestType {
+  UrlType url = 1;
+  string method = 2;
+  map<string, string> headers = 3;
+  string content_type = 4;
+  bytes body = 5;
+  bytes raw = 6;
+}
+
+message HTTPResponseType {
+  UrlType url = 1;
+  int32 status = 2 ;
+  bytes body = 3;
+  string body_string = 4;
+  map<string, string> headers = 5;
+  string content_type = 6;
+  int32 latency = 7;
+  bytes raw = 8;
+  string title = 9;
+  string title_string = 10;
+  bytes raw_header = 11;
+  bytes raw_cert = 12;
+  string icon_url = 13;
+}
+
+message ReverseType {
+  UrlType url = 1;
+  string rmi = 2;
+  string ldap = 3;
+  string flag = 4;
+  string domain = 5;
+  string ip = 6;
+  bool is_domain_name_server = 7;
+  string group_id = 8;
+}
+
+message OOB {
+  string Filter = 1;
+  string HTTP = 2;
+  string DNS = 3;
+  string ProtocolHTTP = 4; // 默认值 "http"
+  string ProtocolDNS = 5;  // 默认值 "dns"
+}
