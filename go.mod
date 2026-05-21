@@ -10,8 +10,8 @@ require (
 	github.com/hashicorp/golang-lru v1.0.2
 	github.com/iami317/hubur v0.0.0-20240904090207-9738aeb4ead6
 	github.com/iami317/logx v0.0.0-20240711032605-592ab9113eaa
-	github.com/open0x01/reverkit v0.0.0-20250226081209-f7befdc26ecb
 	github.com/iami317/shttp v0.0.0-20240711033933-0edee8d4b3db
+	github.com/open0x01/reverkit v0.0.0-20260521170332-3778c1de6e49
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.9.0
 	github.com/zan8in/oobadapter v0.0.0-20240611013553-c79cb5eec939
@@ -28,7 +28,6 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bits-and-blooms/bitset v1.13.0 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/denisbrodbeck/machineid v1.0.1 // indirect
 	github.com/gaissmai/bart v0.9.5 // indirect
@@ -50,7 +49,6 @@ require (
 	github.com/projectdiscovery/retryabledns v1.0.73 // indirect
 	github.com/projectdiscovery/utils v0.2.7 // indirect
 	github.com/rogpeppe/go-internal v1.12.0 // indirect
-	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
@@ -61,9 +59,7 @@ require (
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/twmb/murmur3 v1.1.8 // indirect
-	github.com/urfave/cli/v2 v2.27.5 // indirect
 	github.com/weppos/publicsuffix-go v0.30.2 // indirect
-	github.com/xrash/smetrics v0.0.0-20240521201337-686a1a2994c1 // indirect
 	github.com/zan8in/pins v0.0.0-20231009082442-920437d7fa86 // indirect
 	github.com/zan8in/retryablehttp v0.0.0-20230424151727-99fdd3c661d7 // indirect
 	github.com/zmap/zcrypto v0.0.0-20240512203510-0fef58d9a9db // indirect
