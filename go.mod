@@ -1,4 +1,4 @@
-module github.com/iami317/pocx
+module github.com/open0x01/pocx
 
 go 1.22.0
 
@@ -10,7 +10,7 @@ require (
 	github.com/hashicorp/golang-lru v1.0.2
 	github.com/iami317/hubur v0.0.0-20240904090207-9738aeb4ead6
 	github.com/iami317/logx v0.0.0-20240711032605-592ab9113eaa
-	github.com/iami317/reverkit v0.0.0-20250226081209-f7befdc26ecb
+	github.com/open0x01/reverkit v0.0.0-20250226081209-f7befdc26ecb
 	github.com/iami317/shttp v0.0.0-20240711033933-0edee8d4b3db
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.9.0

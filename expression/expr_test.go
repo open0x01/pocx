@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/iami317/hubur"
-	"github.com/iami317/reverkit"
+	"github.com/open0x01/reverkit"
 	"github.com/stretchr/testify/require"
 	"net"
 	"os"

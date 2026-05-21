@@ -2,7 +2,7 @@ package snet
 
 import (
 	"context"
-	"github.com/iami317/pocx/pocbase"
+	"github.com/open0x01/pocx/pocbase"
 	"net"
 	"time"
 )
